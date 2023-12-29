@@ -125,7 +125,7 @@ main {
 }
 
 .plans-title {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .plans-container {
@@ -217,9 +217,8 @@ footer {
     text-indent: 20px;
     font-size: 18px;
     width: 325px;
-    border: 0;
-    border-radius: 8px;
-    border: 1px solid #FFF;
+    border-radius: 10px;
+    border: 2px solid #FFF;
     padding: 22px 0;
     margin-bottom: 16px;
 }
