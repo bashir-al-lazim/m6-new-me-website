@@ -1,0 +1,233 @@
+/* styles for all */
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    width: 1519px;
+    /*fixed website*/
+    margin: 0 auto;
+}
+
+.description {
+    color: #FFF;
+    line-height: 26px;
+}
+
+button {
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 0 26px;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: #FFF;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    padding: 216px 200px 166px 0;
+}
+
+.header-banner {
+    width: 525px;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    padding-left: 31px;
+    margin-bottom: 32px;
+}
+
+/* main sections */
+
+.section-title {
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* failure section */
+
+main {
+    margin: 130px 200px 130px;
+}
+
+.failure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    margin-bottom: 130px;
+}
+
+.failure-img-container {
+    height: 724px;
+    width: 569px;
+    display: flex;
+}
+
+.failure-img-container img {
+    position: absolute;
+}
+
+.background-circle {
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background: linear-gradient(0deg, #00b7ff 0%, rgba(0, 95, 172, 0.00) 100%);
+    align-self: self-end;
+    margin-left: 22px;
+}
+
+.failure-txt-container {
+    width: 416px;
+}
+
+.failure-description {
+    color: var(--Dark-02, #444343);
+    padding: 24px 0 16px;
+}
+
+.checkmark-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.checkmark {
+    color: var(--Dark-02, #444343);
+}
+
+/* my plans section */
+
+.plans {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.plans-title {
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans-container li {
+    list-style: none;
+}
+
+.plan-title {
+    color: var(--Dark-01, #151414);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+}
+
+.plan-description {
+    color: var(--Dark-03, #737272);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* call section */
+
+.call {
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.call-container {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    padding: 59px 0 59px 64px;
+    border-radius: 10px;
+}
+
+.call-title {
+    color: #FFF;
+    width: 459px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+/* footer */
+
+footer {
+    background: var(--Dark-01, #151414);
+}
+
+.footer-container {
+    color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 200px;
+}
+
+.future {
+    width: 485px;
+}
+
+.future-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.future-description {
+    margin-bottom: 32px;
+}
+
+.future img {
+    margin-right: 10px;
+}
+
+.subscribe-title {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-bottom: 31px;
+}
+
+.subscribe-email {
+    color: var(--Dark-07, #F3F3F3);
+    background: var(--Dark-01, #151414);
+    text-indent: 20px;
+    font-size: 18px;
+    width: 325px;
+    border: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 22px 0;
+    margin-bottom: 16px;
+}
+
+.subscribe-button {
+    border-radius: 8px;
+    background-color: #005FAC;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
