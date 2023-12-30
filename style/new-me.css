@@ -67,7 +67,7 @@ header {
 /* failure section */
 
 main {
-    margin: 130px 200px 130px;
+    margin: 80px 200px 130px;
 }
 
 .failure {
@@ -130,7 +130,7 @@ main {
 
 .plans-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .plans-container li {
